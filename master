@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="eng"> 
+<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<style>
+    .first-image{
+            width: 100px;
+    }
+    
+    .black-text{
+        color: black;
+    }
+    
+    .aqua-text{
+        color: aqua;
+    }
+    h1{
+        font-family: 'Shadows Into Light', monospace; 
+        font-size: 20px;   
+    }
+    
+    body {
+        background-color: bisque;
+    }
+    
+    ul#menu li {
+    display:inline;
+}
+
+
+</style>
+<title>English Novel Exploration</title>
+
+<head>
+    <h1 class="black-text"> English novel exploration</h1>
+    <nav>
+    <ul id="menu">  
+        
+        <li> <a href="#farewelltoarms">  <img class="first-image" src="http://www.italymagazine.com/sites/mainfiles/fairwell-arms.jpg"></a></li>
+        
+        <li>  <a href="#11/22/63"> <img class="first-image" src="https://upload.wikimedia.org/wikipedia/en/1/14/11-22-63.jpg"> </a> </li>
+
+        </ul>
+    
+    </nav>
+    
+        <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       
+        
+        
+    
+   
+    
+</head>
+
+<body>
+    <p1> 
+        <div class="container">
+            <h2>
+        <button type="button" data-toggle="modal" data-target="#myModal"><img class="first-image" src="http://www.italymagazine.com/sites/mainfiles/fairwell-arms.jpg"></button>
+            </h2>
+             <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+         <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">A Farewell to Arms</h4>
+        </div>
+        <div class="modal-body">
+          <p>Summary</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+        <p1 id="farewelltoarms">A Farewell to Arms</p1>
+    </p1>
+        </div>
+        
+        
+        
+        
+    <br></br>
+    <p2>
+        <img class="first-image" src="https://upload.wikimedia.org/wikipedia/en/1/14/11-22-63.jpg">
+    </p2>
+
+  
+
+</body>
+</html>
